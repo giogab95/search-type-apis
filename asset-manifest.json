@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/search-type-apis/static/css/main.1e28b61c.chunk.css",
+    "main.js": "/search-type-apis/static/js/main.1fde7c09.chunk.js",
+    "main.js.map": "/search-type-apis/static/js/main.1fde7c09.chunk.js.map",
+    "runtime~main.js": "/search-type-apis/static/js/runtime~main.cfdd64b6.js",
+    "runtime~main.js.map": "/search-type-apis/static/js/runtime~main.cfdd64b6.js.map",
+    "static/js/2.5a9977e9.chunk.js": "/search-type-apis/static/js/2.5a9977e9.chunk.js",
+    "static/js/2.5a9977e9.chunk.js.map": "/search-type-apis/static/js/2.5a9977e9.chunk.js.map",
+    "index.html": "/search-type-apis/index.html",
+    "precache-manifest.ea1f3303198564fb520b44b2b2074491.js": "/search-type-apis/precache-manifest.ea1f3303198564fb520b44b2b2074491.js",
+    "service-worker.js": "/search-type-apis/service-worker.js",
+    "static/css/main.1e28b61c.chunk.css.map": "/search-type-apis/static/css/main.1e28b61c.chunk.css.map",
+    "static/media/Pacman-1s-200px.gif": "/search-type-apis/static/media/Pacman-1s-200px.4d6b805f.gif",
+    "static/media/logo.svg": "/search-type-apis/static/media/logo.5d5d9eef.svg"
+  }
+}
