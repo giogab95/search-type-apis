@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -10,7 +14,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: calc(100vh - 56px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +31,64 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg {
+  background: linear-gradient(green, rgb(42, 226, 42), rgb(14, 233, 14));
+  animation: bg-animation infinite 3s linear;
+  width: 100%;
+}
+
+.bg-no {
+  background: linear-gradient(green, rgb(42, 226, 42), rgb(14, 233, 14)) !important;
+}
+
+.load,
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes bg-animation {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.ani-img:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.cards {
+  width: 85vw;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.cards {
+  width: 85vw;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}
+
+.searchFilmHover:hover {
+  transform: scale(1.2);
+  transition: all 1s;
 }
